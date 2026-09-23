@@ -1,5 +1,5 @@
 // swift-tools-version: 5.9
-// VideoEditorCore 1.0.3 — SPM 바이너리 패키지. tool/release_manifests.sh 가 굽는다 (손으로 고치지 말 것).
+// VideoEditorCore 1.0.4 — SPM 바이너리 패키지. tool/release_manifests.sh 가 굽는다 (손으로 고치지 말 것).
 import PackageDescription
 
 let package = Package(
@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VideoEditorCore",
-            url: "https://dl.infinive.dev/ios/1.0.3/VideoEditorCore.xcframework.zip",
-            checksum: "af611ba58c1097d476282fe71c9ffb76500c65cf76a1aaa7faf875384d79340b"
+            url: "https://dl.infinive.dev/ios/1.0.4/VideoEditorCore.xcframework.zip",
+            checksum: "ec98900006db9ed1983763b4b2a5fc935b64752bf687262a85cac43d66ae3d5e"
         ),
     ]
 )
