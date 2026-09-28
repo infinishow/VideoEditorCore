@@ -1,5 +1,5 @@
 // swift-tools-version: 5.9
-// VideoEditorCore 1.0.10 — https://infinive.dev/docs/integration/ios/
+// VideoEditorCore 1.1.0 — https://infinive.dev/docs/integration/ios/
 import PackageDescription
 
 let package = Package(
@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VideoEditorCore",
-            url: "https://dl.infinive.dev/ios/1.0.10/VideoEditorCore.xcframework.zip",
-            checksum: "d4e00b2aa4dc51671c595f33420649e515516cde273e803285ab0c58315f93fd"
+            url: "https://dl.infinive.dev/ios/1.1.0/VideoEditorCore.xcframework.zip",
+            checksum: "0283a14918f694e859fb6b6e3d2d30c331be90aebc140903cd2b85558711cf40"
         ),
     ]
 )
